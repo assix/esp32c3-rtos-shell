@@ -25,15 +25,9 @@ Pin defaults are in [main/config.h.example](main/config.h.example).
 
 ## Quick Start
 
-1. Install ESP-IDF (v6.x recommended).
-2. Copy config template and set credentials:
-
-```bash
-cp main/config.h.example main/config.h
-```
-
-3. Edit [main/config.h](main/config.h) with your Wi-Fi SSID/password and shell credentials.
-4. Build and flash:
+1. Install ESP-IDF (v6.x+ recommended).
+2. Edit [main/config.h](main/config.h) with your Wi-Fi SSID/password and shell credentials.
+3. Build and flash:
 
 ```bash
 . /path/to/esp-idf/export.sh
@@ -57,8 +51,6 @@ The built-in Python runner is intentionally lightweight.
 
 ## Security Notes
 
-- Do not commit real Wi-Fi passwords or production shell credentials.
-- Change default shell credentials before exposing telnet beyond a trusted local network.
 - Telnet is plaintext; use on trusted LANs only.
 
 ## License
