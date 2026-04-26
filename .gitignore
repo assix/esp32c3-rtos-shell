@@ -1,0 +1,16 @@
+# ESP-IDF / build output
+build/
+
+# Local SDK config backups
+sdkconfig.old
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
