@@ -1,4 +1,4 @@
-# assix-c3-os
+# esp32c3-rtos-shell
 
 A shell-style firmware for ESP32-C3 built with ESP-IDF + FreeRTOS.
 
